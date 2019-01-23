@@ -95,8 +95,12 @@ a {
   text-decoration: none;
   color: inherit; }
 
-.container {
-  width: 80%;
+.container_headers {
+  width: 85%;
+  margin: auto; }
+
+.container_text {
+  width: 75%;
   margin: auto; }
 
 h1 {
