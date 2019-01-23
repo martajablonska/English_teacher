@@ -1,0 +1,17 @@
+.break {
+    height: 300px;
+    background-image: linear-gradient(to top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+}
+
+.break_text {
+    font-family: 'Amiri', serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    font-size:23px;
+    padding: 20px 0;
+    
+    q {
+        padding: 40px 0;
+    }
+}
