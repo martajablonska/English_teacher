@@ -95,12 +95,21 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.container {
+  width: 80%;
+  margin: auto; }
+
 h1 {
   font-size: 70px; }
 
 h2 {
   font-size: 60px;
   font-weight: bold; }
+
+p {
+  font-size: 19px;
+  line-height: 24px;
+  margin: 20px 0; }
 
 .header {
   width: 100%;
@@ -138,8 +147,12 @@ h2 {
 
 .hero {
   height: 100vh;
-  background-image: -o-linear-gradient(315deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
-  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  /*background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);*/
+  /*background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);*/
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#13547a), color-stop(#1e7292), color-stop(#3891a6), color-stop(#59b1b7), to(#80d0c7));
+  background-image: -o-linear-gradient(bottom, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+  background-image: linear-gradient(to top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+  /*background-image: linear-gradient(to top, #09203f, #1b3454, #2d4a69, #3f607f, #537895);*/
   padding-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,3 +169,19 @@ h2 {
           align-items: center; }
   .hero h1 {
     color: white; }
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.person_img {
+  height: 70vh;
+  margin-right: 80px; }
+
+.person_secrip {
+  margin: auto; }

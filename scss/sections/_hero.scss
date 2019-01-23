@@ -1,6 +1,9 @@
 .hero {
     height: 100vh;
-    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    /*background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);*/
+    /*background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);*/
+    background-image: linear-gradient(to top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+    /*background-image: linear-gradient(to top, #09203f, #1b3454, #2d4a69, #3f607f, #537895);*/
     padding-top:60px;
     display: flex;
     flex-direction: row;
