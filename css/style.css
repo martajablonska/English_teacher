@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Amiri|Cantata+One|Gruppo|Maitree|Rokkitt");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*add reset button style */
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button;
+  /* for input */
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'Amiri', serif;
+  /*font-family: 'Cantata One', serif;*/
+  /*font-family: 'Gruppo', cursive;*/
+  /*font-family: 'Maitree', serif;*/
+  /*font-family: 'Rokkitt', serif;*/ }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+h1 {
+  font-size: 70px; }
+
+h2 {
+  font-size: 60px;
+  font-weight: bold; }
+
+.header {
+  width: 100%;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  background-color: white; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-transform: uppercase;
+  color: #678;
+  font-size: 20px;
+  margin-top: 20px; }
+  .menu li {
+    padding: 0 10px; }
+
+.hero {
+  height: 100vh;
+  background-image: -o-linear-gradient(315deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .hero h1 {
+    color: white; }
