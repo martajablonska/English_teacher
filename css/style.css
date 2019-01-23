@@ -106,6 +106,14 @@ h2 {
   font-size: 60px;
   font-weight: bold; }
 
+h3 {
+  font-weight: bold;
+  font-size: 35px; }
+
+h4 {
+  font-weight: bold;
+  font-size: 25px; }
+
 p {
   font-size: 19px;
   line-height: 24px;
@@ -128,7 +136,9 @@ p {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  background-color: white; }
+  background-color: white;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
 
 .menu {
   display: -webkit-box;
@@ -209,3 +219,6 @@ p {
   padding: 20px 0; }
   .break_text q {
     padding: 40px 0; }
+
+.offer {
+  padding: 60px 0; }
