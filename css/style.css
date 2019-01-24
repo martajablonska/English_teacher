@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Amiri|Cantata+One|Gruppo|Maitree|Rokkitt");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -85,10 +86,10 @@ button::-moz-focus-inner {
           box-sizing: border-box; }
 
 body {
-  font-family: 'Amiri', serif;
+  /*font-family: 'Amiri', serif;*/
   /*font-family: 'Cantata One', serif;*/
   /*font-family: 'Gruppo', cursive;*/
-  /*font-family: 'Maitree', serif;*/
+  font-family: 'Maitree', serif;
   /*font-family: 'Rokkitt', serif;*/ }
 
 a {
@@ -104,27 +105,55 @@ a {
   margin: auto; }
 
 h1 {
-  font-size: 70px; }
-
-h2 {
-  font-size: 60px;
-  font-weight: bold; }
+  font-size: 90px;
+  font-family: 'Caveat', cursive; }
 
 h3 {
   font-weight: bold;
-  font-size: 35px; }
+  font-size: 40px; }
 
 h4 {
   font-weight: bold;
   font-size: 25px; }
 
 p {
-  font-size: 19px;
+  font-size: 17px;
   line-height: 24px;
   margin: 20px 0; }
 
 .header {
   width: 100%;
+  /*height: 140px;*/
+  position: fixed;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
+  transition: .7s all;
+  z-index: 99; }
+  .header a:hover {
+    color: rgba(102, 119, 136, 0.74); }
+
+.header, ul {
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
+  transition: .7s all; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-transform: uppercase;
+  color: #678;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
+.large {
   height: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,13 +167,18 @@ p {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  position: fixed;
-  background-color: white;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
+          align-items: center; }
+  .large h2 {
+    font-size: 60px;
+    font-weight: bold; }
+  .large .menu {
+    font-size: 20px;
+    margin-top: 20px; }
+    .large .menu li {
+      padding: 0 10px; }
 
-.menu {
+.small {
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,22 +186,29 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  text-transform: uppercase;
-  color: #678;
-  font-size: 20px;
-  margin-top: 20px; }
-  .menu li {
-    padding: 0 10px; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .small h2 {
+    font-size: 30px;
+    font-weight: bold; }
+  .small .menu {
+    font-size: 20px;
+    margin-top: 0; }
+    .small .menu li {
+      padding: 0 10px; }
 
 .hero {
   height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#473b7b), color-stop(#3e4a88), color-stop(#355893), color-stop(#2e669b), color-stop(#2c73a1), color-stop(#227fa9), color-stop(#1a8cb0), color-stop(#1a98b5), color-stop(#00a7bc), color-stop(#00b6c0), color-stop(#02c4c0), to(#30d2be));
+  background-image: -o-linear-gradient(bottom, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
+  background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
   /*background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);*/
   /*background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);*/
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#13547a), color-stop(#1e7292), color-stop(#3891a6), color-stop(#59b1b7), to(#80d0c7));
-  background-image: -o-linear-gradient(bottom, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
-  background-image: linear-gradient(to top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+  /*background-image: linear-gradient(to top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);*/
   /*background-image: linear-gradient(to top, #09203f, #1b3454, #2d4a69, #3f607f, #537895);*/
-  padding-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,12 +225,23 @@ p {
   .hero h1 {
     color: white; }
 
+.hero_smaller {
+  position: relative;
+  left: 70px;
+  margin-bottom: 30px;
+  font-size: 80px; }
+
+.hero_bigger {
+  font-size: 160px;
+  position: relative;
+  top: 140px;
+  left: -150px; }
+
 .person {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 80px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -197,17 +249,17 @@ p {
 .person_img {
   height: 70vh;
   margin-right: 80px;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
 
 .person_secrip {
   margin: auto; }
 
 .break {
   height: 300px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#13547a), color-stop(#1e7292), color-stop(#3891a6), color-stop(#59b1b7), to(#80d0c7));
-  background-image: -o-linear-gradient(bottom, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
-  background-image: linear-gradient(to top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7); }
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#473b7b), color-stop(#3e4a88), color-stop(#355893), color-stop(#2e669b), color-stop(#2c73a1), color-stop(#227fa9), color-stop(#1a8cb0), color-stop(#1a98b5), color-stop(#00a7bc), color-stop(#00b6c0), color-stop(#02c4c0), to(#30d2be));
+  background-image: -o-linear-gradient(bottom, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
+  background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be); }
 
 .break_text {
   font-family: 'Amiri', serif;
@@ -226,3 +278,9 @@ p {
 
 .offer {
   padding: 60px 0; }
+
+.contact {
+  height: 300px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#473b7b), color-stop(#3e4a88), color-stop(#355893), color-stop(#2e669b), color-stop(#2c73a1), color-stop(#227fa9), color-stop(#1a8cb0), color-stop(#1a98b5), color-stop(#00a7bc), color-stop(#00b6c0), color-stop(#02c4c0), to(#30d2be));
+  background-image: -o-linear-gradient(bottom, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
+  background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be); }
