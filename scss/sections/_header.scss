@@ -6,9 +6,7 @@
     box-shadow: 0 1px 3px rgba(0,0,0,.4);
     transition: .7s all;
     z-index:99;
-    a:hover {
-        color:rgba(102, 119, 136, 0.74);
-    }
+  
 }
 
 .header, ul {
@@ -21,6 +19,9 @@
     text-transform: uppercase;
     color:#678;
     align-self: center;
+          a:hover {
+            color:rgba(102, 119, 136, 0.74);
+        }
 }
 
 .large {

@@ -13,7 +13,7 @@ let width= window.innerWidth;
         }, 800); 
     } else {                        
         $('html, body').animate({
-            scrollTop: $(href).offset().top - 110
+            scrollTop: $(href).offset().top - 70
         }, 800);  
     };
 

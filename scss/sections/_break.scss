@@ -1,5 +1,5 @@
 .break {
-    background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
+    background-image: $gradient;
 }
 
 .break_text {
@@ -9,7 +9,7 @@
     flex-direction: column;
     font-size:27px;
     font-family: 'Caveat', cursive;
-    padding: 20px 0;
+    padding: 40px 0;
     
     q {
         padding: 20px 0;
