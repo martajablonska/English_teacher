@@ -110,7 +110,8 @@ h1 {
 
 h3 {
   font-weight: bold;
-  font-size: 40px; }
+  font-size: 40px;
+  text-align: center; }
 
 h4 {
   font-weight: bold;
@@ -256,7 +257,6 @@ p {
   margin: auto; }
 
 .break {
-  height: 300px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#473b7b), color-stop(#3e4a88), color-stop(#355893), color-stop(#2e669b), color-stop(#2c73a1), color-stop(#227fa9), color-stop(#1a8cb0), color-stop(#1a98b5), color-stop(#00a7bc), color-stop(#00b6c0), color-stop(#02c4c0), to(#30d2be));
   background-image: -o-linear-gradient(bottom, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
   background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be); }
@@ -271,13 +271,21 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 23px;
+  font-size: 27px;
+  font-family: 'Caveat', cursive;
   padding: 20px 0; }
   .break_text q {
-    padding: 40px 0; }
+    padding: 20px 0; }
+  .break_text p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-size: 27px; }
 
 .offer {
   padding: 60px 0; }
+  .offer h3 {
+    margin-bottom: 30px; }
 
 .contact {
   height: 300px;
