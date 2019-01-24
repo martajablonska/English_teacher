@@ -288,7 +288,10 @@ p {
     margin-bottom: 30px; }
 
 .contact {
-  height: 300px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#473b7b), color-stop(#3e4a88), color-stop(#355893), color-stop(#2e669b), color-stop(#2c73a1), color-stop(#227fa9), color-stop(#1a8cb0), color-stop(#1a98b5), color-stop(#00a7bc), color-stop(#00b6c0), color-stop(#02c4c0), to(#30d2be));
   background-image: -o-linear-gradient(bottom, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
-  background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be); }
+  background-image: linear-gradient(to top, #473b7b, #3e4a88, #355893, #2e669b, #2c73a1, #227fa9, #1a8cb0, #1a98b5, #00a7bc, #00b6c0, #02c4c0, #30d2be);
+  color: white;
+  text-align: center; }
+  .contact div {
+    padding: 50px 0; }
