@@ -6,6 +6,7 @@
     box-shadow: 0 1px 3px rgba(0,0,0,.4);
     transition: .7s all;
     z-index:99;
+
   
 }
 
@@ -19,6 +20,8 @@
     text-transform: uppercase;
     color:#678;
     align-self: center;
+    font-size:18px;
+    
           a:hover {
             color:rgba(102, 119, 136, 0.74);
         }
@@ -32,14 +35,12 @@
     align-items: center;
     
         h2 {
-        font-size:60px;
+        font-size:50px;
         font-weight: bold;
     }
     
     .menu {
-  
-    font-size:20px;
-    margin-top: 20px;
+        margin-top: 20px;
     
         li {
             padding: 0 10px;
@@ -60,7 +61,6 @@
     }
     
     .menu {
-    font-size:20px;
     margin-top: 0;
     
         li {

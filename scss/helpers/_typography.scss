@@ -1,6 +1,7 @@
 h1 {
     font-size:90px;
     font-family: 'Caveat', cursive;
+    text-shadow: $headersShadow;
 }
 
 h3 {
@@ -11,11 +12,16 @@ h3 {
 
 h4 {
     font-weight: bold;
-    font-size: 25px; 
+    font-size: 27px; 
 }
 
 p {
+    font-size:16px;
+    line-height: 26px;
+    margin: 25px 0;
+}
+
+.bold {
+    font-weight: bold;
     font-size:17px;
-    line-height: 24px;
-    margin: 20px 0;
 }
