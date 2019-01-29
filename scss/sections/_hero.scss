@@ -4,18 +4,20 @@
     /*background-image: $gradient;*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
     
     h1 {
-        color:white;
+        color:#fad437;
+        color:#313131;
+        text-shadow: $headersShadow;
         text-align: center;
     }
     
     h2 {
         color:#717171;
-        font-size: 25px;
+        font-size: 28px;
         padding-top: 30px;
         text-align: center;
     }

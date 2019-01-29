@@ -89,8 +89,8 @@ body {
   /*font-family: 'Amiri', serif;*/
   /*font-family: 'Cantata One', serif;*/
   /*font-family: 'Gruppo', cursive;*/
-  font-family: 'Maitree', serif;
-  /*font-family: 'Rokkitt', serif;*/ }
+  /*font-family: 'Maitree', serif;*/
+  font-family: 'Rokkitt', serif; }
 
 a {
   text-decoration: none;
@@ -116,7 +116,7 @@ a {
 h1 {
   font-size: 140px;
   font-family: 'Caveat', cursive;
-  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.7); }
+  /*text-shadow: $headersShadow;*/ }
 
 h3 {
   font-weight: bold;
@@ -241,18 +241,19 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
   .hero h1 {
-    color: white;
+    color: #fad437;
+    color: #313131;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-align: center; }
   .hero h2 {
     color: #717171;
-    font-size: 25px;
+    font-size: 28px;
     padding-top: 30px;
     text-align: center; }
 
