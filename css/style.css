@@ -249,7 +249,7 @@ p {
   .hero h1 {
     color: #fad437;
     color: #313131;
-    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+    /*text-shadow: $headersShadow;*/
     text-align: center; }
   .hero h2 {
     color: #717171;
